@@ -25,8 +25,8 @@ simulation_p_YD.m is a simulate function using CKPTYDPER strategy
 simulation_each_iteration_perturb.m is a simulate function using CKPTEACHITER strategy (perturbation)    
 simulation_each_segement_perturb.m is a simulate function using CKPTEACHTASK strategy (perturbation)    
 simulation_optimal_pattern_perturb.m is a simulate function using the dynamic programming algorithm (perturbation)  
-simulation_p_YD_perturb.m is a simulate function using CKPTYDPER strategy 
-plot_three_strategies.R plot figures using ggplot2 in R studio    
-median_boxtoline.R change box figures to line figures using ggplot2 in R studio    
+simulation_p_YD_perturb.m is a simulate function using CKPTYDPER strategy   
+plot_three_strategies.R plot figures using ggplot2 in R studio      
+median_boxtoline.R change box figures to line figures using ggplot2 in R studio      
 
 
