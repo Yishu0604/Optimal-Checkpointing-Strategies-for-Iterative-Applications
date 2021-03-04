@@ -15,11 +15,11 @@ main_gopi_base.m do the simulations for the neuroscience application (baseline)
 main_gopi_perturb.m do the simulations for the neuroscience application (perturbation)  
 main_gopi_scability.m do the simulations for the neuroscience application (scability) 
 ratio_bar_plot.m compute data of bar plot
-simulation_YD_C_max.m is a simulate function using a strategy like CKPTAVE but takes C_YD as maximal 
-simulation_YD_C_mean.m is a simulate function using CKPTAVE strategy  
-simulation_YD_C_min.m is a simulate function using a strategy like CKPTAVE but takes C_YD as minimal 
-simulation_each_iteration.m is a simulate function using CKPTEACHITER strategy    
-simulation_each_segement.m is a simulate function using CKPTEACHTASK strategy   
+simulation_YD_C_max.m is a simulate function using a strategy like CKPTAVE but takes C_YD as maximal   
+simulation_YD_C_mean.m is a simulate function using CKPTAVE strategy    
+simulation_YD_C_min.m is a simulate function using a strategy like CKPTAVE but takes C_YD as minimal   
+simulation_each_iteration.m is a simulate function using CKPTEACHITER strategy      
+simulation_each_segement.m is a simulate function using CKPTEACHTASK strategy     
 simulation_optimal_pattern.m is a simulate function using the dynamic programming algorithm  
 simulation_p_YD.m is a simulate function using CKPTYDPER strategy   
 simulation_each_iteration_perturb.m is a simulate function using CKPTEACHITER strategy (perturbation)    
