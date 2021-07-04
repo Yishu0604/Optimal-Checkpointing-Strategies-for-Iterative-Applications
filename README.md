@@ -13,7 +13,7 @@ main_random.m do the simulations for the synthetic application
 main_random_varyingeta.m do the simulations for the synthetic application (varying eta)  
 main_gopi_perturb.m do the simulations for the neuroscience application (perturbation)  
 main_gopi_scability.m do the simulations for the neuroscience application (scability)   
-ratio_bar_plot.m compute data of bar plot
+ratio_bar_plot.m compute data of bar plot  
 simulation_YD_C_max.m is a simulate function using a strategy like CKPTAVE but takes C_YD as maximal   
 simulation_YD_C_mean.m is a simulate function using CKPTAVE strategy    
 simulation_YD_C_min.m is a simulate function using a strategy like CKPTAVE but takes C_YD as minimal   
