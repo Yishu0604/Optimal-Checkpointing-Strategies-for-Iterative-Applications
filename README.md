@@ -10,9 +10,9 @@ gen_faults.m generate faults which obey the Expentional distribution
 main_GCR.m do the simulations for GCR application  
 main_gopi.m do the simulations for the neuroscience application  
 main_random.m do the simulations for the synthetic application  
-main_random_varyingeta.m do the simulations for the synthetic application (varying eta)
+main_random_varyingeta.m do the simulations for the synthetic application (varying eta)  
 main_gopi_perturb.m do the simulations for the neuroscience application (perturbation)  
-main_gopi_scability.m do the simulations for the neuroscience application (scability) 
+main_gopi_scability.m do the simulations for the neuroscience application (scability)   
 ratio_bar_plot.m compute data of bar plot
 simulation_YD_C_max.m is a simulate function using a strategy like CKPTAVE but takes C_YD as maximal   
 simulation_YD_C_mean.m is a simulate function using CKPTAVE strategy    
@@ -25,7 +25,7 @@ simulation_each_iteration_perturb.m is a simulate function using CKPTEACHITER st
 simulation_each_segement_perturb.m is a simulate function using CKPTEACHTASK strategy (perturbation)    
 simulation_optimal_pattern_perturb.m is a simulate function using the dynamic programming algorithm (perturbation)  
 simulation_p_YD_perturb.m is a simulate function using CKPTYDPER strategy   
-task_bound.m compute the number of tasks of the upper bound and real in use of the optimal pattern
+task_bound.m compute the number of tasks of the upper bound and real in use of the optimal pattern  
 all_figures.R plot figures using ggplot2 in R studio      
 
 
