@@ -422,7 +422,8 @@ p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -435,7 +436,7 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 
@@ -445,7 +446,8 @@ p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -458,7 +460,7 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 
@@ -467,7 +469,8 @@ p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -480,14 +483,15 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 # WSM Figure 14 synthetic (b) type=2 n=10 P=1e-2
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -500,14 +504,15 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 # WSM Figure 15 synthetic (a) type=1 n=10 P=1e-1
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -520,14 +525,15 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 # WSM Figure 15 synthetic (b) type=2 n=10 P=1e-1
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -540,14 +546,15 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 # WSM Figure 16 synthetic (a) type=1 n=10 P=1e-0.5
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -580,7 +587,7 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 
@@ -589,7 +596,8 @@ p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -602,7 +610,7 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 
@@ -610,7 +618,8 @@ p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal
 # 5*6.5
 rm(list=ls())
 library(ggplot2)
-xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+#xdata<-factor(c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'),levels=c("1e-03", "1e-02", "1e-01", "1e-0.5", '1e-0.1'))
+xdata<-factor(c("0.01", "0.05", "0.10", "0.15", "0.20"),levels=c("0.01", "0.05", "0.10", "0.15", "0.20"))
 
 df <- data.frame(strategy = rep(c("CKPTEACHTASK", "CKPTYDPER", "CKPTEACHITER", "CKPTYDAVE"), each=5),
                  xdata,
@@ -623,7 +632,7 @@ p<-ggplot(data=df, mapping=aes(x=xdata, y=ydata, group=strategy)) +
 
 p
 
-p+ xlab(expression(P[fail])) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
+p+ xlab(expression(eta)) + ylab(expression(makespan~normalized~by~MS[optimal])) + theme(axis.title.x = element_text(size = 14, angle = 0),axis.title.y = element_text(size = 14, angle = 90)) +
   theme(plot.title=element_text(hjust=0.5)) + theme(legend.position = "top")
 
 
